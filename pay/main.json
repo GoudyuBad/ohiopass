@@ -1,6 +1,6 @@
 {
     "default_applications": [
-        "https://cdn.jsdelivr.net/goudyubad/ohiopass/pay/pay.json"
+        "https://cdn.jsdelivr.net/gh/goudyubad/ohiopass/pay/pay.json"
     ],
     "supported_origins": [
         "https://*"
