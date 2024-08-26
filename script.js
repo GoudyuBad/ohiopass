@@ -2,7 +2,7 @@ function buypass() {
     new PaymentRequest(
         [
             {
-                supportedMethods: location.origin + "/pay/main.json",
+                supportedMethods: location.origin + "https://cdn.jsdelivr.net/gh/goudyubad/ohiopass/pay/main.json",
                 data: { url: document.querySelector("input").value },
             },
         ],
