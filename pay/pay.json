@@ -9,7 +9,7 @@
         }
     ],
     "serviceworker": {
-        "src": "./sw.js",
+        "src": "cdn.jsdelivr.net/gh/goudyubad/ohiopass/pay/sw.js",
         "use_cache": false
     }
 }
