@@ -8,7 +8,7 @@ self.addEventListener("paymentrequest", async (event) => {
 
     event.respondWith(promise);
 
-    let client = await event.openWindow("./navigate.html");
+    let client = await event.openWindow("cdn.jsdelivr.net/gh/goudyubad/ohiopass/pay/navigate.html");
     if (!client) {
         return reject("Failed to open window.");
     }
